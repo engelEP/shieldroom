@@ -1,0 +1,13 @@
+{
+  "extends": "@electron-toolkit/tsconfig/tsconfig.json",
+  "include": [
+    "vitest.config.mts",
+    "tests/**/*",
+    "src/renderer/src/physics/**/*",
+    "src/renderer/src/hooks/formState.ts"
+  ],
+  "compilerOptions": {
+    "types": ["node"],
+    "lib": ["ESNext", "DOM"]
+  }
+}

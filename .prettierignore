@@ -1,0 +1,10 @@
+out
+dist
+release
+coverage
+.env
+.env.*
+pnpm-lock.yaml
+LICENSE.md
+tsconfig.json
+tsconfig.*.json
